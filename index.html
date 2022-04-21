@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO DE REGISTRO</h1>
+    </header>
+    <hr>
+    <h1>CALCULA TU PESO IDEAL</h1>
+    <form>
+        <div class="container">
+            <label>Cual es tu genero</label><br>
+            <input type="radio" name="gen" required>
+            <label >Hombre</label><br>
+            <input type="radio" name="gen" required>
+            <label >Mujer</label><br>
+  
+            <div class="row">
+                <div class="col-25">
+                    <label>PESO</label>
+                </div>
+                <div class="col-75">
+                    <input type="number"  min="1" maxlength="20" size="20" required placeholder="peso en kg.">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>ESTATURA</label>
+                </div>
+                <div class="col-75">
+                    <input type="number"  min="1" step="any" maxlength="20" size="20" required placeholder="estatura en mts">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>CIRC. MUÑECA</label>
+                </div>
+                <div class="col-75">
+                    <input type="number"  min="1"  max="25" size="20" required placeholder="circunferencia de la muñeca">
+                </div>    
+            </div>
+
+        
+        <br><br>
+          
+
+        <label>Dirección actual de tu domicilio </label>
+        <input type="text" maxlength="30" size="30" required >
+        <br><br>
+        <label>Cual es el tu correo electronico</label>
+        <input type="email" maxlength="30" size="30" required>
+        <br><br>
+        
+        <input type="submit" value="Registrar" >
+        <input type="reset" value="Limpiar">
+        
+    </div>
+
+     
+    </form>
+
+</body>
+</html>
